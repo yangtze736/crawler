@@ -22,7 +22,7 @@ class Douban(CrawlSpider):
 			fullTitle = ''
 			for each in title:
 				fullTitle += each
-			movieInfo = eachMovie.xpath('div[@class="bd"]/p/text()').extract()
+			movieInfo = eachMovie.xpath('div[@class="bd"]/p[@class=""]/text()').extract()
 			star = eachMovie.xpath('div[@class="bd"]/div[@class="star"]/span[@class="rating_num"]/text()').extract()[0]
 			quote = eachMovie.xpath('div[@class="bd"]/p[@class="quote"]/span/text()').extract()
 			#quote可能为空，需要先进行判断

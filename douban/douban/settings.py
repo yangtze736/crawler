@@ -85,5 +85,5 @@ USER_AGENT = 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Geck
 #HTTPCACHE_IGNORE_HTTP_CODES=[]
 #HTTPCACHE_STORAGE='scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-FEED_URI = u'/home/zhejiang/douban.csv'
+FEED_URI = u'./douban.csv'
 FEED_FORMAT = 'CSV'
