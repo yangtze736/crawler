@@ -1,8 +1,6 @@
 #crawler
 
----
-
-**douban project**: crawl douban movies top250 
+**douban project**:
 
 before you use it, please make sure scrapy is ok
 
@@ -16,6 +14,5 @@ run :
 
   scrapy crawl douban
 
----
 
 
